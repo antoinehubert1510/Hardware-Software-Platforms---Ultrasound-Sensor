@@ -7,5 +7,5 @@ To do this, the available files make it possible to understand the operation of 
 
 Here's a first scheme to understand the general structure of the project :
 
-<img alt="image" src="https://user-images.githubusercontent.com/83776433/117567011-3c7a8480-b0ba-11eb-8c25-865353123c6c.png)">
+<img width="710" alt="image" src="https://user-images.githubusercontent.com/83776433/117567011-3c7a8480-b0ba-11eb-8c25-865353123c6c.png)">
 ![alt text](https://user-images.githubusercontent.com/83776433/117567011-3c7a8480-b0ba-11eb-8c25-865353123c6c.png)
