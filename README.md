@@ -42,3 +42,8 @@ The writing sequence is :
 
 ![writing](https://user-images.githubusercontent.com/83776433/118824406-1de66b80-b8ba-11eb-8e38-000f55f64f75.png)
 
+and the reading sequence is :
+
+<img width="975" alt="Capture d’écran 2021-05-19 à 16 04 41" src="https://user-images.githubusercontent.com/83776433/118826610-ed073600-b8bb-11eb-983f-49ed5cd46112.png">
+
+
