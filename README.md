@@ -46,4 +46,8 @@ and the reading sequence is :
 
 <img width="975" alt="Capture d’écran 2021-05-19 à 16 04 41" src="https://user-images.githubusercontent.com/83776433/118826610-ed073600-b8bb-11eb-983f-49ed5cd46112.png">
 
+# Video
+
+https://youtu.be/KhrLss_JTB4
+
 
