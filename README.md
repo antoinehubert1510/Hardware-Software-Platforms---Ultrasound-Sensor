@@ -25,9 +25,6 @@ A C-code will be used to read all the values of distances from the sensor. The s
 
 The I2C driver is a well-known part of this project, we can easily find informations on the Internet. The state machine helps us to understand the code we used in Altera Quartus.
 
-## Distances sensor
-
-(A compléter)
 
 # Steps to run our project
 1. Open the progect Altera Quartus with the good golden (the golden is the quartus project correspondong to the chip we use). In our case, we use the chip DE0_nano_SoC. More informations about this chip can be found here : https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&CategoryNo=167&No=941
@@ -39,3 +36,9 @@ The I2C driver is a well-known part of this project, we can easily find informat
 # Ultrasound Captor
 
 The register to read the values of our capter is Software Revision and its location is 0. Then we use the register 0 and the command 0x51. This command is an activation commande, it starts the mesure and reads the data in centimeters. We need 16 bits (2 bytes) to read the data : the high byte (0x02) and the lower byte (0x03). We combine these two mesures to obtain the resulting value.
+
+The writing sequence is : 
+
+
+![writing](https://user-images.githubusercontent.com/83776433/118824406-1de66b80-b8ba-11eb-8e38-000f55f64f75.png)
+
