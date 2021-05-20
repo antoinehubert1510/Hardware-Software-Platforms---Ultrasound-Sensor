@@ -46,6 +46,14 @@ and the reading sequence is :
 
 <img width="975" alt="Capture d’écran 2021-05-19 à 16 04 41" src="https://user-images.githubusercontent.com/83776433/118826610-ed073600-b8bb-11eb-983f-49ed5cd46112.png">
 
+Our simulation shows the different states :
+
+![s1](https://user-images.githubusercontent.com/83776433/118925969-e28e8000-b93f-11eb-8d58-ab76e4e2fcfd.png)
+![s2](https://user-images.githubusercontent.com/83776433/118926046-f803aa00-b93f-11eb-9954-cceea8a6b755.png)
+![s3](https://user-images.githubusercontent.com/83776433/118926148-26818500-b940-11eb-81f0-b0189a4bce2d.png)
+![s4](https://user-images.githubusercontent.com/83776433/118926211-3b5e1880-b940-11eb-8413-7deb2a5c9657.png)
+
+
 # Video
 
 https://youtu.be/KhrLss_JTB4
