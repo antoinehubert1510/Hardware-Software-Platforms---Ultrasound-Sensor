@@ -9,14 +9,15 @@
 
 ## Altera Quartus
 1) Install Altera Quartur (last version, pro or lite).
-2) Find the DE0soc golden to start a new project.
+2) Find the DE0soc golden to start a new project. Open the progect Altera Quartus with the good golden (the golden is the quartus project correspondong to the chip we use). In our case, we use the chip DE0_nano_SoC. More informations about this chip can be found here : https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&CategoryNo=167&No=941.
 3) Double-click on "soc_system.qsf". A Quartus window opens. The top-level entity is the file ghrd.v.
-4) Create a BLOC file, which is vhdl. Define all the connections, the clock and the sda. (see BLOC.vhd)
-5) Complete the ghrd file with the connections from BLOC, as shown in the code ghrd.v.
+4) Create a BLOC file, which is vhdl. Define all the connections, the clock and the sda. (see BLOC.vhd) We descibe in this bloc all the registers we want to use. In our case, we only need one register out to read the sensor's values.
+5) Complete the ghrd file with the connections from BLOC, as shown in the code ghrd.v. In the ghrd file, we specify "My wires" : wire [7:0] reg_out_to_bloc; .reg_out_external_connection(reg_out_to_bloc) in the part soc_system u0 (), a a part of the code which corresponds to our bloc file.
 6) Add an I2C protocol in the BLOC file (see BLOC.vhd).
 7) Go to Tools -> Platform Designer.
 
 ## Platform Designer
+We need to make connections to create a link between the codes.
 1) Load the file of the project.
 2) Search "parallel" in the search bar, and double-click on PIO (Parallel I/O) Intel FPGA IP.
 3) Add the input and output registers we created in the Bloc file, rename it and modify the base for every new register (ex: if REG1 =0x0000 0010, REG2 must be 0x0000 0020 ...).
