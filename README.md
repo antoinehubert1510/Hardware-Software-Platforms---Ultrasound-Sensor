@@ -1,4 +1,3 @@
-![ModelSim_s4](https://user-images.githubusercontent.com/84465380/118986233-73d11700-b97f-11eb-8322-77ca6aaa0cd7.PNG)
 # Hardware-Software-Platforms---Ultrasound-Sensor
 Project of the MA1 course Hardware/Software Platforms (UMONS).
 This file contains all the explanations of the project. It explains what we have to do to use the ultrasound sensor SRF02.
@@ -55,7 +54,7 @@ Our simulation shows the different states :
 ![s1](https://user-images.githubusercontent.com/83776433/118925969-e28e8000-b93f-11eb-8d58-ab76e4e2fcfd.png)
 ![s2](https://user-images.githubusercontent.com/83776433/118926046-f803aa00-b93f-11eb-9954-cceea8a6b755.png)
 ![s3](https://user-images.githubusercontent.com/83776433/118926148-26818500-b940-11eb-81f0-b0189a4bce2d.png)
-![s4](https://user-images.githubusercontent.com/83776433/118926211-3b5e1880-b940-11eb-8413-7deb2a5c9657.png)
+![ModelSim_s4](https://user-images.githubusercontent.com/84465380/118986233-73d11700-b97f-11eb-8322-77ca6aaa0cd7.PNG)
 
 
 # Video
