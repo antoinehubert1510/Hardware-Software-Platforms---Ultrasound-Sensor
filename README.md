@@ -36,13 +36,6 @@ A C-code will be used to read all the values of distances from the sensor. The s
 The I2C driver is a well-known part of this project, we can easily find informations on the Internet. The state machine helps us to understand the code we used in Altera Quartus.
 
 
-# Steps to run our project
-1. Open the progect Altera Quartus with the good golden (the golden is the quartus project correspondong to the chip we use). In our case, we use the chip DE0_nano_SoC. More informations about this chip can be found here : https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&CategoryNo=167&No=941
-2. Create a BLOC file (.vhd file). We descibe in this bloc all the registers we want to use. In our case, we only need one register out to read the sensor's values. We also descibe the I2C structure into this file BLOC.
-3. We need to specify the registers we use in the ghrd.v file and our bloc. By the way, this file ghrd is the top file of our project. In the ghrd file, we specify "My wires" : wire [7:0] reg_out_to_bloc; .reg_out_external_connection(reg_out_to_bloc) dans la partie soc_system u0 (), et une partie de code qui correspond à notre bloc de base.
-4. We need to make connections to create a link between the codes. To do that, we go in tools -> Platform Designer, we load our project, then we look for "parallel" in the search bar. We double-click on parallel I/O and we can add registers (input or output).
-
-
 # Ultrasound Captor
 
 The register to read the values of our capter is Software Revision and its location is 0. Then we use the register 0 and the command 0x51. This command is an activation commande, it starts the mesure and reads the data in centimeters. We need 16 bits (2 bytes) to read the data : the high byte (0x02) and the lower byte (0x03). We combine these two mesures to obtain the resulting value.
