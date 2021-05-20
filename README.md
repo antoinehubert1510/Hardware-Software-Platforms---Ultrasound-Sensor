@@ -1,3 +1,4 @@
+![ModelSim_s4](https://user-images.githubusercontent.com/84465380/118986233-73d11700-b97f-11eb-8322-77ca6aaa0cd7.PNG)
 # Hardware-Software-Platforms---Ultrasound-Sensor
 Project of the MA1 course Hardware/Software Platforms (UMONS).
 This file contains all the explanations of the project. It explains what we have to do to use the ultrasound sensor SRF02.
