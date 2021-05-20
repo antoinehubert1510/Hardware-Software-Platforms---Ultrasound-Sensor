@@ -16,7 +16,8 @@ A C-code will be used to read all the values of distances from the sensor. The s
 
 ## State Machine
 
-![state_machine](https://user-images.githubusercontent.com/83776433/118777762-b31d3c00-b889-11eb-9ba2-e7d045827434.png)
+![state_machine](https://user-images.githubusercontent.com/83776433/118927038-84629c80-b941-11eb-9071-e70e7fad57a6.png)
+
 
 
 ## I2C driver
