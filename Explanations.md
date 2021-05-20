@@ -46,3 +46,9 @@ To access the board using the USB port (serial communication), we use PuTTY. Wit
 6) Start the chip. Linux installed on the SD card will run.
 7) Put the C code on the chip.
 
+Last but not least, we need to put the VHDL code on the FPGA.
+
+1) Go on Quartus.
+2) Click on the button "Programmer" (the button circled in a red square).
+
+![Quartus-II-Development-Environment-from-Altera](https://user-images.githubusercontent.com/83776433/118959218-68bbbe00-b962-11eb-9f57-33a97dec61fd.png)
