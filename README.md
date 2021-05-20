@@ -4,7 +4,7 @@ This file contains all the explanations of the project. It explains what we have
 
 Hello! We are two students of the Faculty of Engineering of the university of Mons (UMONS). This is our 4th year here, and we have a project for the course Hardware/Software. We specialise in Electrical Energy and Smart Grids.
 
-The aim of this project is to implement an interface between a sensor and a computer through an FPGA. Some details about this project are available just below, but don't worry, there are many other informations in the Explanation.md file. You can find by the end of this document the link trough the project's video, hope you enjoy ;)
+The aim of this project is to implement an interface between a sensor and a computer through an FPGA. Some details about this project are available just below, but don't worry, there are many other informations in the Explanations.md file. You can find by the end of this document the link trough the project's video, hope you enjoy ;)
 
 If you want to contact us for further informations, please find our names and adresses just here :
 
