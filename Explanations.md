@@ -52,3 +52,6 @@ Last but not least, we need to put the VHDL code on the FPGA.
 2) Click on the button "Programmer" (the button circled in a red square).
 
 ![Quartus-II-Development-Environment-from-Altera](https://user-images.githubusercontent.com/83776433/118959218-68bbbe00-b962-11eb-9f57-33a97dec61fd.png)
+
+3) A window opens. Click on "start".
+4) A command window open, we can run our code and the distances show up.
